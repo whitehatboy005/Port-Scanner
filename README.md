@@ -50,7 +50,8 @@ You can run the port scanner using the following command-line flags:
 - `-l <file>`: File with a list of domains to scan.
 - `-h`: Display help menu.
 #
-![Screenshot 2024-12-29 110115](https://github.com/user-attachments/assets/ae8d472a-c1bb-437e-920c-b06a441acb57)
+![Screenshot 2024-12-29 110115](https://github.com/user-attachments/assets/cb8093eb-18f3-4612-8032-f5c953d87f4d)
+
 ## Examples
 
 1. **Scan a single target (example: google.com) from port 1 to 1000 and save the results to `results.txt`:**
