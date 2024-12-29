@@ -1,5 +1,5 @@
 # Port Scanner
-[![License](https://img.shields.io/github/license/whitehatboy005/Port-Scanner)](LICENSE.md)
+[![License](https://img.shields.io/github/license/whitehatboy005/Blockchain-Based-Voting-System)](LICENSE.md)
 
 This project is a simple command-line tool written in Go that scans ports on a target domain or IP address. It can scan a range of ports, check which ports are open, and record the results to an output file. It also supports scanning a list of domains from a file.
 
