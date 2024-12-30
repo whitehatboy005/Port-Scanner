@@ -68,7 +68,7 @@ You can run the port scanner using the following command-line flags:
      Results for google.com:
      Port 80 - HTTP
      Port 443 - HTTPS
-     Scanning completed in 10.02 seconds
+     Scanning completed in 1.02 seconds
   ```
 #
 ## License
