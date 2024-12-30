@@ -142,7 +142,7 @@ func main() {
     // Define flags for command-line arguments
     targetPtr := flag.String("t", "", "Target domain or IP address to scan")
     startPortPtr := flag.Int("s", 1, "Start port (default: 1)")
-    endPortPtr := flag.Int("e", 10000, "End port (default: 10000)")
+    endPortPtr := flag.Int("e", 65535, "End port (default: 65535)")
     outputFilePtr := flag.String("o", "results.txt", "Output file to save results (default: results.txt)")
     listFilePtr := flag.String("l", "", "File with list of domains to scan")
     helpPtr := flag.Bool("h", false, "Display help menu")
@@ -155,7 +155,7 @@ if *helpPtr {
     fmt.Println("Usage:")
     fmt.Println("  -t <target>   : Target domain or IP address to scan")
     fmt.Println("  -s <start port>: Start port number (default: 1)")
-    fmt.Println("  -e <end port> : End port number (default: 10000)")
+    fmt.Println("  -e <end port> : End port number (default: 65535)")
     fmt.Println("  -o <output>   : Output file to save the results (default: results.txt)")
     fmt.Println("  -l <file>     : File with list of domains to scan")
     fmt.Println("Examples:")
