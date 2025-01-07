@@ -12,18 +12,40 @@ import (
 
 // Define port names for known services
 var portNames = map[int]string{
-    21:   "FTP",
+    // Critical Well-Known Ports
+    20:   "FTP Data",
+    21:   "FTP Control",
     22:   "SSH",
     23:   "Telnet",
     25:   "SMTP",
     53:   "DNS",
     80:   "HTTP",
+    110:  "POP3",
+    123:  "NTP",
+    139:  "NetBIOS Session Service",
+    143:  "IMAP",
     443:  "HTTPS",
+    445:  "SMB",
+    465:  "SMTPS",
+    587:  "SMTP Submission",
+    993:  "IMAPS",
+    995:  "POP3S",
+
+    // Common Registered Ports
+    1433: "Microsoft SQL Server",
+    1521: "Oracle Database",
+    1723: "PPTP (VPN)",
     3306: "MySQL",
+    3389: "RDP",
     5432: "PostgreSQL",
     8080: "HTTP Proxy",
-    3389: "RDP",
+
+    // Dynamic Ports (optional, for outbound detection)
+    49152: "Ephemeral Port",
+    49153: "Ephemeral Port",
+    49154: "Ephemeral Port",
 }
+
 
 // Function to scan a specific port
 func scanPort(target string, port int, wg *sync.WaitGroup, resultChan chan string) {
