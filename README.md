@@ -14,6 +14,10 @@ This project is a simple command-line tool written in Go that scans ports on a t
 ## Requirements
 
 - Go 1.18 or higher
+#
+![Screenshot 2025-01-07 180942](https://github.com/user-attachments/assets/b28e743b-4396-4b74-996b-d510205e60e3)
+# Example
+![Screenshot 2025-01-07 180927](https://github.com/user-attachments/assets/4a145641-0a30-47b4-a243-56bac87fbdae)
 
 ## Installation
 
@@ -50,26 +54,17 @@ You can run the port scanner using the following command-line flags:
 - `-l <file>`: File with a list of domains to scan.
 - `-h`: Display help menu.
 #
-![Screenshot 2024-12-29 110115](https://github.com/user-attachments/assets/cb8093eb-18f3-4612-8032-f5c953d87f4d)
-
 ## Examples
 
-1. **Scan a single target (example: google.com) from port 1 to 1000 and save the results to `results.txt`:**
+1. **Scan a single target (example: google.com) from port 1 to 10000 and save the results to `results.txt`:**
 
    ```bash
    portscan -t google.com -s 1 -e 10000 -o results.txt
    ```
-2. **Scan a list of domains from domains.txt file from port 1 to 1000 and save the results to results.txt:**
+2. **Scan a list of domains from domains.txt file from port 1 to 10000 and save the results to results.txt:**
    ```bash
    portscan -l domains.txt -s 1 -e 10000 -o results.txt
    ```
-## Example output
-  ```
-     Results for google.com:
-     Port 80 - HTTP
-     Port 443 - HTTPS
-     Scanning completed in 1.02 seconds
-  ```
 #
 ## License
 
