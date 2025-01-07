@@ -175,11 +175,11 @@ func main() {
     // If help flag is set, show the usage
 if *helpPtr {
     fmt.Println("Usage:")
-    fmt.Println("  -t <target>   : Target domain or IP address to scan")
+    fmt.Println("  -t <target>    : Target domain or IP address to scan")
     fmt.Println("  -s <start port>: Start port number (default: 1)")
-    fmt.Println("  -e <end port> : End port number (default: 65535)")
-    fmt.Println("  -o <output>   : Output file to save the results (default: results.txt)")
-    fmt.Println("  -l <file>     : File with list of domains to scan")
+    fmt.Println("  -e <end port>  : End port number (default: 65535)")
+    fmt.Println("  -o <output>    : Output file to save the results (default: results.txt)")
+    fmt.Println("  -l <file>      : File with list of domains to scan")
     fmt.Println("Examples:")
     fmt.Println("  portscan -t google.com -s 1 -e 1000 -o results.txt")
     fmt.Println("  portscan -l domains.txt -s 1 -e 1000 -o results.txt")
