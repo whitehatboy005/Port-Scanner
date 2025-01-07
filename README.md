@@ -10,6 +10,9 @@ This project is a simple command-line tool written in Go that scans ports on a t
 - **Domain List Scanning**: Scan multiple domains from a list stored in a file.
 - **Output to File**: Save results to a file in a readable format.
 - **Parallel Scanning**: Uses goroutines to scan multiple ports concurrently for faster results.
+- **Custom Port Range**: Specify custom port ranges for focused and efficient scans.
+- **Cross-Platform Compatibility**: Compatible with Windows, Linux, and macOS.
+- **Timeout Handling**: Configurable timeouts for slow or unresponsive networks.
 
 ## Requirements
 
