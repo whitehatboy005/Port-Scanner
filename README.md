@@ -57,11 +57,11 @@ You can run the port scanner using the following command-line flags:
 1. **Scan a single target (example: google.com) from port 1 to 1000 and save the results to `results.txt`:**
 
    ```bash
-   portscan -t google.com -s 1 -e 1000 -o results.txt
+   portscan -t google.com -s 1 -e 10000 -o results.txt
    ```
 2. **Scan a list of domains from domains.txt file from port 1 to 1000 and save the results to results.txt:**
    ```bash
-   portscan -l domains.txt -s 1 -e 1000 -o results.txt
+   portscan -l domains.txt -s 1 -e 10000 -o results.txt
    ```
 ## Example output
   ```
