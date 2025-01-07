@@ -181,8 +181,8 @@ if *helpPtr {
     fmt.Println("  -o <output>    : Output file to save the results (default: results.txt)")
     fmt.Println("  -l <file>      : File with list of domains to scan")
     fmt.Println("Examples:")
-    fmt.Println("  portscan -t google.com -s 1 -e 1000 -o results.txt")
-    fmt.Println("  portscan -l domains.txt -s 1 -e 1000 -o results.txt")
+    fmt.Println("  portscan -t google.com -s 1 -e 10000 -o results.txt")
+    fmt.Println("  portscan -l domains.txt -s 1 -e 10000 -o results.txt")
     return
 }
 
