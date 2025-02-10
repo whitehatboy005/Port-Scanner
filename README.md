@@ -1,9 +1,9 @@
-# Port Scanner
+# 🧑‍💻 Port Scanner
 [![License](https://img.shields.io/github/license/whitehatboy005/Port-Scanner)](LICENSE.md)
 
 This project is a simple command-line tool written in Go that scans ports on a target domain or IP address. It can scan a range of ports, check which ports are open, and record the results to an output file. It also supports scanning a list of domains from a file.
 
-## Features
+## 🚀 Features
 
 - **Port Scanning**: Scan a specific range of ports on a target domain or IP address.
 - **Service Detection**: Identifies common services running on open ports such as FTP, HTTP, SSH, etc.
@@ -14,7 +14,7 @@ This project is a simple command-line tool written in Go that scans ports on a t
 - **Cross-Platform Compatibility**: Compatible with Windows, Linux, and macOS.
 - **Timeout Handling**: Configurable timeouts for slow or unresponsive networks.
 
-## Requirements
+## ✅ Requirements
 
 - Go 1.18 or higher
 #
@@ -22,7 +22,7 @@ This project is a simple command-line tool written in Go that scans ports on a t
 # Example
 ![Screenshot 2025-01-07 180927](https://github.com/user-attachments/assets/4a145641-0a30-47b4-a243-56bac87fbdae)
 
-## Installation
+## ⚙️ Installation
 
 1. Clone the repository to your local machine:
    ```bash
@@ -48,7 +48,7 @@ This project is a simple command-line tool written in Go that scans ports on a t
 
 You can run the port scanner using the following command-line flags:
 
-### Flags
+### 🏳️Flags
 
 - `-t <target>`: Target domain or IP address to scan.
 - `-s <start port>`: Start port number (default: 1).
@@ -69,6 +69,6 @@ You can run the port scanner using the following command-line flags:
    portscan -l domains.txt -s 1 -e 10000 -o results.txt
    ```
 #
-## License
+## 📝 License
 
 This project is licensed under the terms of the [MIT license](LICENSE.md).
