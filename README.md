@@ -27,20 +27,17 @@ This project is a simple command-line tool written in Go that scans ports on a t
 1. Clone the repository to your local machine:
    ```bash
    git clone https://github.com/whitehatboy005/Port-Scanner.git
-   ```
-2. Navigate to the project directory:
-   ```bash
    cd Port-Scanner
    ```
-3. Build the project:
+2. Build the project:
    ```bash
    go build -o portscan portscan.go
    ```
-4. Make it executable
+3. Make it executable
    ```bash
    sudo chmod +x portscan
    ```
-5. Move the binary to /usr/local/bin for global access
+4. Move the binary to /usr/local/bin for global access
    ```bash
    sudo mv portscan /usr/local/bin/
    ```
